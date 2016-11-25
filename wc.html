@@ -188,10 +188,10 @@
                             <div class="portfolio-item">
                                 
                                     <div id="DongYuhYang" align="center"><script>DongYuhYang();</script></div>
-                                    <div id="YiFanWang" style="display: none;"><script>YiFanWang();</script></div>	
-                                    <div id="HungLungWang" style="display: none;"><script>HungLungWang();</script></div>	
-			                        <div id="JouMingChang" style="display: none;"><script>JouMingChang();</script></div>
-			                        <div id="ChingShihTsou" style="display: none;"><script>ChingShihTsou();</script></div>	
+                                    <div id="YiFanWang" style="display: none;" align="center"><script>YiFanWang();</script></div>	
+                                    <div id="HungLungWang" style="display: none;" align="center"><script>HungLungWang();</script></div>	
+			            <div id="JouMingChang" style="display: none;" align="center"><script>JouMingChang();</script></div>
+			            <div id="ChingShihTsou" style="display: none;" align="center"><script>ChingShihTsou();</script></div>	
                             </div>
                         </div>
                     </div>
@@ -341,6 +341,48 @@
         // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
     </script>
+<script type="text/javascript">
+function DongYuhYang()
+{
+document.getElementById("DongYuhYang").style.display="";
+document.getElementById("YiFanWang").style.display="none";
+document.getElementById("HungLungWang").style.display="none";
+document.getElementById("JouMingChang").style.display="none";
+document.getElementById("ChingShihTsou").style.display="none";
+}
+function YiFanWang()
+{
+document.getElementById("DongYuhYang").style.display="none";
+document.getElementById("YiFanWang").style.display="";
+document.getElementById("HungLungWang").style.display="none";
+document.getElementById("JouMingChang").style.display="none";
+document.getElementById("ChingShihTsou").style.display="none";
+}
+function HungLungWang()
+{
+document.getElementById("DongYuhYang").style.display="none";
+document.getElementById("YiFanWang").style.display="none";
+document.getElementById("HungLungWang").style.display="";
+document.getElementById("JouMingChang").style.display="none";
+document.getElementById("ChingShihTsou").style.display="none";
+}
+function JouMingChang()
+{
+document.getElementById("DongYuhYang").style.display="none";
+document.getElementById("YiFanWang").style.display="none";
+document.getElementById("HungLungWang").style.display="none";
+document.getElementById("JouMingChang").style.display="";
+document.getElementById("ChingShihTsou").style.display="none";
+}
+function ChingShihTsou()
+{
+document.getElementById("DongYuhYang").style.display="none";
+document.getElementById("YiFanWang").style.display="none";
+document.getElementById("HungLungWang").style.display="none";
+document.getElementById("JouMingChang").style.display="none";
+document.getElementById("ChingShihTsou").style.display="";
+}
+</script>
 
 </body>
 
