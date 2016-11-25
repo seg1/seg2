@@ -156,7 +156,11 @@ hr.small {
     display: table;
     position: relative;
     width: 100%;
+<<<<<<< HEAD
     height: 60%;
+=======
+    height: 70%;
+>>>>>>> origin/master
     background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
