@@ -156,7 +156,7 @@
     <!-- Callout -->
     <aside class="callout">
         <div class="text-vertical-center">
-            <h1>Vertically Centered Text</h1>
+            <h1></h1>
         </div>
     </aside>
 
@@ -165,15 +165,43 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h2>Our Work</h2>
+                    <div align="center">
+            <table style="width:100%">
+  		<tr>
+    		<th text-align="center"><button type="button" onclick="DongYuhYang()"><font face="標楷體" color="#000000" style=font-size:18px>楊東育</font></button></th>
+    		<th text-align="center"><button type="button" onclick="YiFanWang()"><font face="標楷體" color="#000000" style=font-size:18px>王亦凡</font></button></th>
+    		<th text-align="center"><button type="button" onclick="HungLungWang()"><font face="標楷體" color="#000000" style=font-size:18px>王弘倫</font></button></th>
+		<th text-align="center"><button type="button" onclick="JouMingChang()"><font face="標楷體" color="#000000" style=font-size:18px>張肇明</font></button></th>
+		<th text-align="center"><button type="button" onclick="ChingShihTsou()"><font face="標楷體" color="#000000" style=font-size:18px>鄒慶士</font></button></th>
+ 		</tr>
+			</table>
+			</div>
                     <hr class="small">
                     <div class="row">
                         <div class="">
                             <div class="portfolio-item">
-                                <div>
-    <a href="https://plot.ly/~gigigirl/20/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~gigigirl/20.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="gigigirl:20"  src="https://plot.ly/embed.js" async></script>
-</div>
+                                <div id="DongYuhYang" align="center"><h1>楊東育 老師</h1><br></div>
+                                <div id="YiFanWang" style="display: none;" align="center"><h1>王亦凡 老師</h1><br><script>YiFanWang();</script></div>	
+                                <div id="HungLungWang" style="display: none;" align="center"><h1>王弘倫 老師</h1><br><script>HungLungWang();</script></div>	
+			                    <div id="JouMingChang" style="display: none;" align="center"><h1>張肇明 老師</h1><br>
+                                <h2>超立方體</h2><br>
+                                    <div>
+                                        <a href="https://plot.ly/~gigigirl/20/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~gigigirl/20.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+                                        <script data-plotly="gigigirl:20"  src="https://plot.ly/embed.js" async></script>
+                                    </div>
+                                <h2>獨立擴展樹</h2><br>
+                                    <div>
+                                        <a href="https://plot.ly/~gigigirl/21/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~gigigirl/21.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+                                        <script data-plotly="gigigirl:21"  src="https://plot.ly/embed.js" async></script>
+                                    </div>
+                                <h2>圖形演算法</h2><br>
+                                    <div>
+                                        <a href="https://plot.ly/~gigigirl/22/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~gigigirl/22.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+                                        <script data-plotly="gigigirl:22"  src="https://plot.ly/embed.js" async></script>
+                                    </div>
+
+                                </div>
+			                    <div id="ChingShihTsou" style="display: none;" align="center"><h1>鄒慶士 老師</h1><br><script>ChingShihTsou();</script></div>
 
                             </div>
                         </div>
@@ -325,7 +353,48 @@
         // Enable map zooming with mouse scroll when the user clicks the map
     $('.map').on('click', onMapClickHandler);
     </script>
-
+<script type="text/javascript">
+function DongYuhYang()
+{
+document.getElementById("DongYuhYang").style.display="";
+document.getElementById("YiFanWang").style.display="none";
+document.getElementById("HungLungWang").style.display="none";
+document.getElementById("JouMingChang").style.display="none";
+document.getElementById("ChingShihTsou").style.display="none";
+}
+function YiFanWang()
+{
+document.getElementById("DongYuhYang").style.display="none";
+document.getElementById("YiFanWang").style.display="";
+document.getElementById("HungLungWang").style.display="none";
+document.getElementById("JouMingChang").style.display="none";
+document.getElementById("ChingShihTsou").style.display="none";
+}
+function HungLungWang()
+{
+document.getElementById("DongYuhYang").style.display="none";
+document.getElementById("YiFanWang").style.display="none";
+document.getElementById("HungLungWang").style.display="";
+document.getElementById("JouMingChang").style.display="none";
+document.getElementById("ChingShihTsou").style.display="none";
+}
+function JouMingChang()
+{
+document.getElementById("DongYuhYang").style.display="none";
+document.getElementById("YiFanWang").style.display="none";
+document.getElementById("HungLungWang").style.display="none";
+document.getElementById("JouMingChang").style.display="";
+document.getElementById("ChingShihTsou").style.display="none";
+}
+function ChingShihTsou()
+{
+document.getElementById("DongYuhYang").style.display="none";
+document.getElementById("YiFanWang").style.display="none";
+document.getElementById("HungLungWang").style.display="none";
+document.getElementById("JouMingChang").style.display="none";
+document.getElementById("ChingShihTsou").style.display="";
+}
+</script>
 </body>
 
 </html>
