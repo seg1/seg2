@@ -1,0 +1,39 @@
+---
+title: "SEG1"
+author: "SEG1"
+date: "2016年12月2日"
+output: ioslides_presentation
+---
+
+
+```
+
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 設計理念
+
+提供迷惘的研究生，一個選擇論文指導教授解決方案
+
+## 研究流程
+
+- 研究範圍
+- 資料蒐集
+- 資料分析
+- 資料視覺化
+
+## 研究結果
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## 團隊介紹
+
+```{r pressure}
+plot(pressure)
+```
+
