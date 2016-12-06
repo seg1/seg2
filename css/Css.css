@@ -1,4 +1,4 @@
- ul { /* ¨ú®øul¹w³]ªº¤ºÁY¤Î¼Ë¦¡ */
+ ul { /* å–æ¶ˆulé è¨­çš„å…§ç¸®åŠæ¨£å¼ */
         margin: 0;
         padding: 0;
         list-style: none;
@@ -22,7 +22,7 @@
     }
 
     ul.drop-down-menu > li {
-        float: left; /* ¥u¦³²Ä¤@¼h¬O¾a¥ª¹ï»ô*/
+        float: left; /* åªæœ‰ç¬¬ä¸€å±¤æ˜¯é å·¦å°é½Š*/
     }
 
      ul.drop-down-menu a {
@@ -34,11 +34,11 @@
         line-height: 40px;
 
     }
-    ul.drop-down-menu a:hover { /* ·Æ¹«·Æ¤J«ö¶sÅÜ¦â*/
+    ul.drop-down-menu a:hover { /* æ»‘é¼ æ»‘å…¥æŒ‰éˆ•è®Šè‰²*/
         background-color: #D200D2;
         color: #fff;
     }
-    ul.drop-down-menu li:hover > a { /* ·Æ¹«²¾¤J¦¸¿ï³æ¤W¼h«ö¶s«O«ùÅÜ¦â*/
+    ul.drop-down-menu li:hover > a { /* æ»‘é¼ ç§»å…¥æ¬¡é¸å–®ä¸Šå±¤æŒ‰éˆ•ä¿æŒè®Šè‰²*/
         background-color: #D200D2;
         color: #fff;
     }
@@ -60,26 +60,26 @@
         border-bottom: none;
     }
 
-    ul.drop-down-menu ul ul { /*²Ä¤T¼h¥H«áªº¿ï³æ¥X²{¦ì¸m»P²Ä¤G¼h¤£¦P*/
+    ul.drop-down-menu ul ul { /*ç¬¬ä¸‰å±¤ä»¥å¾Œçš„é¸å–®å‡ºç¾ä½ç½®èˆ‡ç¬¬äºŒå±¤ä¸åŒ*/
         z-index: 999;
         top: 10px;
         left: 90%;
     }
-	 ul.drop-down-menu ul { /*ÁôÂÃ¦¸¿ï³æ*/
+	 ul.drop-down-menu ul { /*éš±è—æ¬¡é¸å–®*/
         display: none;
     }
 
-    ul.drop-down-menu li:hover > ul { /* ·Æ¹«·Æ¤J®i¶}¦¸¿ï³æ*/
+    ul.drop-down-menu li:hover > ul { /* æ»‘é¼ æ»‘å…¥å±•é–‹æ¬¡é¸å–®*/
         display: block;
     }
-	 ul.drop-down-menu ul { /*ÁôÂÃ¦¸¿ï³æ*/
+	 ul.drop-down-menu ul { /*éš±è—æ¬¡é¸å–®*/
         left: 99999px;
         opacity: 0;
         -webkit-transition: opacity 0.3s;
         transition: opacity 0.3s;
     }
 
-    ul.drop-down-menu li:hover > ul { /* ·Æ¹«·Æ¤J®i¶}¦¸¿ï³æ*/
+    ul.drop-down-menu li:hover > ul { /* æ»‘é¼ æ»‘å…¥å±•é–‹æ¬¡é¸å–®*/
         opacity: 1;
         -webkit-transition: opacity 0.3s;
         transition: opacity 0.3s;
@@ -87,11 +87,11 @@
         border-right: 5px;
     }
 
-    ul.drop-down-menu li:hover > ul ul { /* ·Æ¹«·Æ¤J¤§«á¡B¦¸¿ï³æ¤§«áªº¿ï³æ¨ÌÂÂÁôÂÃ*/
+    ul.drop-down-menu li:hover > ul ul { /* æ»‘é¼ æ»‘å…¥ä¹‹å¾Œã€æ¬¡é¸å–®ä¹‹å¾Œçš„é¸å–®ä¾èˆŠéš±è—*/
         left: 99999px;
     }
 
-    ul.drop-down-menu ul li:hover > ul { /* ²Ä¤G¼h¤§«áªº¿ï³æ®i¶}¦ì¸m*/
+    ul.drop-down-menu ul li:hover > ul { /* ç¬¬äºŒå±¤ä¹‹å¾Œçš„é¸å–®å±•é–‹ä½ç½®*/
         left: 90%;
     }
 	#clouds
@@ -112,4 +112,9 @@
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+.teaPic
+{
+ width:75%;
+ height:75%;
 }
