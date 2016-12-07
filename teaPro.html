@@ -30,12 +30,12 @@
 <div style=background:#E0E0E0>
 <div align="center" style=margin:5px>
   <ul class="drop-down-menu">
-        <li><a>資訊話題熱門度</a>
+        <li><a onclick="show1()">資訊話題熱門度</a>
             
         </li>
-        <li><a>尚未想到</a>
+        <li><a onclick="show2()">尚未想到</a>
         </li>
-        <li><a onclick="showPic()">教授雲</a>
+        <li><a onclick="showTeaPic()">教授雲</a>
              <!-- <ul>
                 <li><a href="#clouds" onclick="DongYuhYang()">楊東育</a>
                   <ul>
@@ -48,7 +48,6 @@
                         <li><a href="#" >專業項目</a>
                         </li>
                     </ul>
-
                 </li>
                 <li><a href="#clouds" onclick="YiFanWang()">王亦凡</a>
                 </li>
@@ -65,15 +64,15 @@
 	
 	
 	<div style=background:#9D9D9D>
-<div align="center" style=margin:5px>
+<div align="center" style=margin:1px>
   <ul class="drop-down-menu" id="teacherPic" style="display: none;">
         <li><a href="#clouds" onclick="DongYuhYang()" class="goClouds"><img class="teaPic" src="./img/1.jpg"><img><br>楊東育 教授</a>
-        </li>
+        </li >
         <li><a href="#clouds" onclick="YiFanWang()" class="goClouds"><img class="teaPic" src="./img/2.jpg"><img><br>王亦凡 教授</a>
         </li>
-        <li><a href="#clouds" onclick="HungLungWang()" class="goClouds"><img class="teaPic" src="./img/3.jpg"><img><br>張肇明 教授</a>   
+        <li><a href="#clouds" onclick="HungLungWang()" class="goClouds"><img class="teaPic" src="./img/3.jpg"><img><br>王弘倫 教授</a>   
         </li>
-		<li><a href="#clouds" onclick="JouMingChang()" class="goClouds"><img class="teaPic" src="./img/4.jpg"><img><br>王弘倫 教授</a>   
+		<li><a href="#clouds" onclick="JouMingChang()" class="goClouds"><img class="teaPic" src="./img/4.jpg"><img><br>張肇明 教授</a>   
         </li>
 		<li><a href="#clouds" onclick="ChingShihTsou()" class="goClouds"><img class="teaPic" src="./img/5.jpg"><img><br>鄒慶士 教授</a>   
         </li>
@@ -91,10 +90,18 @@
 
 </div>
 <script type="text/javascript">
-function showPic()
-{
-document.getElementById("teacherPic").style.display="";
-}
+function show1()
+		{
+		document.getElementById("teacherPic").style.display="none";
+		}		
+function show2()
+		{
+		document.getElementById("teacherPic").style.display="none";
+		}
+function showTeaPic()
+		{
+		document.getElementById("teacherPic").style.display="";
+		}
 function DongYuhYang()
 		{
 		document.getElementById("clouds").style.display="";
