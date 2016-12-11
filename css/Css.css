@@ -94,27 +94,31 @@
     ul.drop-down-menu ul li:hover > ul { /* 第二層之後的選單展開位置*/
         left: 90%;
     }
-	#clouds
+	/*(#clouds
 	{
 		background-image: url("./img/cloud.png");
 		background-repeat:no-repeat;
 		background-position:top center;
 		background-size:110% 100%;
-	}
+	}*/
 
 .header {
     display: table;
     position: relative;
-    width: 100%;
-    height: 80%;
+
     background: url(./img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
-.teaPic
+#title
 {
-width:auto;
-margin:0px;
+position:absolute;
+font-size:40px;
+color:white;
+text-align:center;
+width:100%;
+padding-top:250px;
+font-weight:bold;
 }
