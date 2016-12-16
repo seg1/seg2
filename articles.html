@@ -194,7 +194,7 @@
                                              <script data-plotly="gigigirl:105"  src="https://plot.ly/embed.js" async></script>
                                         </div>
 				    </div>
-                                <div id="YiFanWang" style="visibility: hidden;" align="center"><h1>王亦凡 老師</h1><br>
+                                <div id="YiFanWang" style="display:none;" align="center"><h1>王亦凡 老師</h1><br>
 					<div>
                                              <a href="https://plot.ly/~gigigirl/107/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~gigigirl/107.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
                                              <script data-plotly="gigigirl:107"  src="https://plot.ly/embed.js" async></script>
@@ -204,7 +204,7 @@
                                              <script data-plotly="gigigirl:88"  src="https://plot.ly/embed.js" async></script>
                                         </div>
 				    </div>	
-                                <div id="HungLungWang" style="visibility: hidden;" align="center"><h1>王弘倫 老師</h1><br>
+                                <div id="HungLungWang" style="display:none;" align="center"><h1>王弘倫 老師</h1><br>
 					<div>
                                              <a href="https://plot.ly/~gigigirl/111/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~gigigirl/111.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
                                              <script data-plotly="gigigirl:111"  src="https://plot.ly/embed.js" async></script>
@@ -214,7 +214,7 @@
                                              <script data-plotly="gigigirl:108"  src="https://plot.ly/embed.js" async></script>
                                         </div>
 				    </div>	
-			                    <div id="JouMingChang" style="visibility: hidden;" align="center"><h1>張肇明 老師</h1><br>					
+			                    <div id="JouMingChang" style="display:none;" align="center"><h1>張肇明 老師</h1><br>					
 						    <div>
                                                         <a href="https://plot.ly/~gigigirl/104/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~gigigirl/104.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
                                                         <script data-plotly="gigigirl:104"  src="https://plot.ly/embed.js" async></script>
@@ -224,7 +224,7 @@
                                                          <script data-plotly="gigigirl:103"  src="https://plot.ly/embed.js" async></script>
                                                     </div>
                                 </div>
-				     <div id="ChingShihTsou" style="visibility: hidden;" align="center"><h1>鄒慶士 老師</h1><br>
+				     <div id="ChingShihTsou" style="display:none;" align="center"><h1>鄒慶士 老師</h1><br>
 				    		<div>
                                                      <a href="https://plot.ly/~gigigirl/102/" target="_blank" title="" style="display: block; text-align: center;"><img src="https://plot.ly/~gigigirl/102.png" alt="" style="max-width: 100%;width: 600px;"  width="600" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
                                                      <script data-plotly="gigigirl:102"  src="https://plot.ly/embed.js" async></script>
@@ -377,25 +377,25 @@
 <script type="text/javascript">
                function DongYuhYang()
 		{
-		document.getElementById("DongYuhYang").style.visibility="visible";
-		document.getElementById("YiFanWang").style.visibility="hidden";
-		document.getElementById("HungLungWang").style.visibility="hidden";
-		document.getElementById("JouMingChang").style.visibility="hidden";
-		document.getElementById("ChingShihTsou").style.visibility="hidden";
+		document.getElementById("DongYuhYang").style.display="";
+		document.getElementById("YiFanWang").style.display="none";
+		document.getElementById("HungLungWang").style.display="none";
+		document.getElementById("JouMingChang").style.display="none";
+		document.getElementById("ChingShihTsou").style.display="none";
 		}
 		function YiFanWang()
 		{
-		document.getElementById("DongYuhYang").style.visibility="hidden";
-		document.getElementById("YiFanWang").style.visibility="visible";
-		document.getElementById("HungLungWang").style.visibility="hidden";
-		document.getElementById("JouMingChang").style.visibility="hidden";
-		document.getElementById("ChingShihTsou").style.visibility="hidden";
+		document.getElementById("DongYuhYang").style.display="none";
+		document.getElementById("YiFanWang").style.display="";
+		document.getElementById("HungLungWang").style.display="none";
+		document.getElementById("JouMingChang").style.display="none";
+		document.getElementById("ChingShihTsou").style.display="none";
 		}
 		function HungLungWang()
 		{
 		document.getElementById("DongYuhYang").style.display="none";
 		document.getElementById("YiFanWang").style.display="none";
-		document.getElementById("HungLungWang").style.visibility="visible";
+		document.getElementById("HungLungWang").style.display="";
 		document.getElementById("JouMingChang").style.display="none";
 		document.getElementById("ChingShihTsou").style.display="none";
 		}
@@ -404,7 +404,7 @@
 		document.getElementById("DongYuhYang").style.display="none";
 		document.getElementById("YiFanWang").style.display="none";
 		document.getElementById("HungLungWang").style.display="none";
-		document.getElementById("JouMingChang").style.visibility="visible";
+		document.getElementById("JouMingChang").style.display="";
 		document.getElementById("ChingShihTsou").style.display="none";
 		}
 		function ChingShihTsou()
@@ -413,7 +413,7 @@
 		document.getElementById("YiFanWang").style.display="none";
 		document.getElementById("HungLungWang").style.display="none";
 		document.getElementById("JouMingChang").style.display="none";
-		document.getElementById("ChingShihTsou").style.visibility="visible";
+		document.getElementById("ChingShihTsou").style.display="";
 		}
 </script>
 </body>
