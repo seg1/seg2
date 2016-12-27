@@ -35,11 +35,11 @@
 
     }
     ul.drop-down-menu a:hover { /* 滑鼠滑入按鈕變色*/
-        background-color: #D200D2;
+        background-color:#AE00AE;
         color: #fff;
     }
     ul.drop-down-menu li:hover > a { /* 滑鼠移入次選單上層按鈕保持變色*/
-        background-color: #D200D2;
+        background-color:#AE00AE;
         color: #fff;
     }
 	 ul.drop-down-menu ul {
@@ -121,4 +121,10 @@ text-align:center;
 width:100%;
 padding-top:250px;
 font-weight:bold;
+}
+footer {
+    padding: 50px 0;
+}
+.img-circle {
+  border-radius: 50%;
 }
