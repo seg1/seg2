@@ -105,7 +105,6 @@
 .header {
     display: table;
     position: relative;
-
     background: url(./img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -127,4 +126,10 @@ footer {
 }
 .img-circle {
   border-radius: 50%;
+}
+.items{
+	 color:black;
+     text-shadow:1px 1px 30px black;
+	 background-image:url(./img/bg.jpg) no-repeat center center scroll;
+	 background-repeat:no-repeat;
 }
